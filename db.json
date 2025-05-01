@@ -1,26 +1,88 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Muslima",
+      "name": "Muslima Radjabova",
       "email": "radjabova@gmail.com",
-      "role": "ADMIN",
-      "password": "12345678"
+      "roles": [
+        "USER",
+        "ADMIN",
+        "SUPER_ADMIN"
+      ],
+      "password": "qwerty123",
+      "id": "1"
     },
     {
-      "id": "b25c",
-      "name": "Mary Doe",
-      "email": "muslima@gmail.com",
-      "role": "USER",
-      "password": "12345678"
+      "id": "a2f5",
+      "name": "Daler Ismatov",
+      "email": "ismatov@gmail.com",
+      "password": "qwertyuio",
+      "roles": [
+        "USER"
+      ]
     },
     {
-      "id": "c3be",
-      "name": "Yuna Doe",
-      "email": "yuna@gmail.com",
-      "password": "12345678",
-      "confirmPassword": "12345678",
-      "role": "USER"
+      "id": "02",
+      "name": "Bexruz Sanaqulov",
+      "email": "sanaqulov@gmail.com",
+      "password": "bexruz123",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": "3gjf7bec",
+      "name": "Firdavs Sa'dullayev",
+      "email": "firdavs@gmail.com",
+      "password": "firdavs234",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": "17ahh214",
+      "name": "Jonibek Jo'rayev",
+      "email": "jonibek@gmail.com",
+      "password": "jonibek234",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": "088efa8f",
+      "name": "Zayniddinov Shoxjahon",
+      "email": "zayniddinov@gmail.com",
+      "password": "shoxjahon",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ]
+    },
+    {
+      "id": "ha8h1aj3",
+      "name": "Na'sullayev Nizom",
+      "email": "nizom@gmail.com",
+      "password": "nizom2345",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": "b7874a19",
+      "name": "Jumayev Mahmud",
+      "email": "mahmud@gmail.com",
+      "password": "mahmud234",
+      "roles": [
+        "USER"
+      ]
+    },
+    {
+      "id": "630deec443435",
+      "name": "Sherov Jahongir",
+      "email": "jahongir@gmail.com",
+      "password": "jahon1234",
+      "roles": [
+        "USER"
+      ]
     }
   ],
   "services": [
@@ -71,6 +133,26 @@
       "id": "2",
       "title": "100 Things a UX/UI Designer Should Know",
       "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Free Font Alternatives: The Ultimate Guide",
+      "imgUrl": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/modern-pricing-plan-mock-up-design-template-9201305de0503713bad84560243b5ec6_screen.jpg?ts=1737132357"
+    },
+    {
+      "id": "4",
+      "title": "100 Things a UX/UI Designer Should Know",
+      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Free Font Alternatives: The Ultimate Guide",
+      "imgUrl": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/modern-pricing-plan-mock-up-design-template-9201305de0503713bad84560243b5ec6_screen.jpg?ts=1737132357"
+    },
+    {
+      "id": "6",
+      "title": "100 Things a UX/UI Designer Should Know",
+      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg"
     }
   ],
   "category": [
@@ -116,6 +198,267 @@
       "id": "ae77",
       "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg",
       "categoryId": "2"
+    },
+    {
+      "id": "8983",
+      "imgUrl": "https://otrs.com/wp-content/uploads/IT-Service-Desk-Featured-Image.jpg",
+      "categoryId": "2"
     }
-  ]
+  ],
+  "agency": [
+    {
+      "id": "1",
+      "imgUrl": "https://logomakerr.ai/uploads/output/2024/01/08/651d9280da95c3605b617d5337a28bfa.jpg"
+    },
+    {
+      "id": "2",
+      "imgUrl": "https://images.picxy.com/cache/2022/2/4/0b207c01449bada42c79834569f65ed6.jpg"
+    },
+    {
+      "id": "3",
+      "imgUrl": "https://images-platform.99static.com//gOLCxMHJ_oyPkH6wIlhUILU5cVs=/250x250:1169x1169/fit-in/500x500/99designs-contests-attachments/90/90662/attachment_90662155"
+    },
+    {
+      "id": "4",
+      "imgUrl": "https://marketplace.canva.com/EAGFOuLX-1M/1/0/1600w/canva-black-minimalist-business-company-logo-fQyf1fJD0tw.jpg"
+    },
+    {
+      "id": "5",
+      "imgUrl": "https://as2.ftcdn.net/jpg/01/63/12/59/1000_F_163125911_N2937xPNhb5EkSRfVGYV9C3ZIVq0kqVy.jpg"
+    },
+    {
+      "id": "6",
+      "imgUrl": "https://www.logoai.com/uploads/output/2025/04/19/0c61fa6a79a7055a4dfd9b288e882c41.jpg"
+    },
+    {
+      "id": "7",
+      "imgUrl": "https://cdn.prod.website-files.com/66e462e020f7c47f0b975775/67a091230682ebcbb975522f_nhMMmukU3Kf7KFCZUuWd.jpeg"
+    },
+    {
+      "id": "8",
+      "imgUrl": "https://live.staticflickr.com/7150/6802172465_98b208ca11_z.jpg"
+    },
+    {
+      "id": "9",
+      "imgUrl": "https://images.squarespace-cdn.com/content/v1/623d49f29df6737429ca4fc1/99a85c11-e1a4-40b1-9116-6c457a9f049e/Web-1920-%E2%80%93-99-1.png"
+    },
+    {
+      "id": "10",
+      "imgUrl": "https://marketplace.canva.com/EAGSWU1L2Tg/1/0/1600w/canva-white-modern-illustrative-online-e-commerce-shop-logo-17WSTuBtB6k.jpg"
+    }
+  ],
+  "translations": {
+    "en": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "projects": "Projects",
+      "feedback": "Feedback",
+      "blog": "Blog",
+      "contact": "Contact",
+      "login": "Login",
+      "Grow your Business Google Ads & Instagram Ads": "Grow your Business Google Ads & Instagram Ads",
+      "It is a long established fact that a reader will be distracted by the readable.": "It is a long established fact that a reader will be distracted by the readable.",
+      "Contact Us": "Contact Us",
+      "Intro Video": "Intro Video",
+      "Our Clients": "Our Clients",
+      "Great Creative Agency Since 1993": "Great Creative Agency Since 1993",
+      "Creative & Proffesional Creative Agency!": "Creative & Proffesional Creative Agency!",
+      "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.": "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+      "Our Services"  : "Our Services",
+      "Our Speciality Sales Increase By 250%": "Our Speciality Sales Increase By 250%",
+      "There Are Many Variations Of Passages Of Lorem Ipsum.": "There Are Many Variations Of Passages Of Lorem Ipsum.",
+      "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.": "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.",
+      "Randomised Words Which Don't Look Even Slightly  Believable.": "Randomised Words Which Don't Look Even Slightly  Believable.",
+      "If You Are Going To Use A Passage Of Lorem Ipsum.": "If You Are Going To Use A Passage Of Lorem Ipsum.",
+      "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.": "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.",
+      "Our Projects": "Our Projects",
+      "What Our Happy": "What Our Happy ",
+      "Clients Say": "Clients Say",
+      "randomised words which don't look even": "randomised words which don't look even",
+      "slightly believable.": "slightly believable.",
+      "Our Blog" : "Our Blog",
+      "Creative & Professional Insights From Our Team": "Creative & Professional Insights From Our Team",
+      "Subscribe To Get The Latest": "Subscribe To Get The Latest",
+      "News About Us" : "News About Us",
+      "Lorem Ipsum is not simply random text. It has roots in": "Lorem Ipsum is not simply random text. It has roots in",
+      "a piece of classical Latin literature.": "a piece of classical Latin literature.",
+      "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.": "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.",
+      "About": "About",
+      "About Us": "About Us",
+      "Features": "Features",
+      "News": "News",
+      "Careers": "Careers",
+      "Company": "Company",
+      "Our Team": "Our Team",
+      "Partner With Us": "Partner With Us",
+      "FAQ": "FAQ",
+      "Blog": "Blog",
+      "Support": "Support",
+      "Account": "Account",
+      "Support Center": "Support Center",
+      "Feedback": "Feedback",
+      "Get In Touch": "Get In Touch",
+      "Have a question or feedback? We'd love to hear from you.": "Have a question or feedback? We'd love to hear from you."
+    },
+    "uz": {
+      "home": "Bosh sahifa",
+      "about": "Biz haqimizda",
+      "services": "Xizmatlar",
+      "projects": "Projektlar",
+      "feedback": "Fikrlar",
+      "blog": "Blog",
+      "contact": "Aloqa",
+      "login": "Kirish",
+      "Grow your Business Google Ads & Instagram Ads": "Google Ads va Instagram Ads bilan biznesingizni oshirish",
+      "It is a long established fact that a reader will be distracted by the readable.": "O'quvchini o'qilishi mumkin bo'lgan narsa chalg'itishi uzoq vaqtdan beri tasdiqlangan haqiqatdir.",
+      "Contact Us": "Biz bilan aloqa",
+      "Intro Video": "Video Namoishi",
+      "Our Clients": "Bizning mijozlar",
+      "Great Creative Agency Since 1993": "1993 yilidan boshlab kreativ agensiyalar",
+      "Creative & Proffesional Creative Agency!": "Kreativ va proffesional kreativ agensiyalar!",
+      "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.": "O'quvchi sahifaning tuzilishini ko'rib chiqayotganda uning o'qilishi mumkin bo'lgan mazmunini chalg'itishi uzoq vaqtdan beri tasdiqlangan haqiqatdir. Lorem Ipsum-dan foydalanishning mohiyati shundaki, u harflarning ko'proq yoki kamroq normal taqsimlanishiga ega.",
+      "Our Services"  : "Bizning xizmatlar",
+      "Our Speciality Sales Increase By 250%": "250% ga ko'paytirilgan sotuvlar",
+      "There Are Many Variations Of Passages Of Lorem Ipsum.": "Lorem Ipsum bilan bir necha variantlar mavjud.",
+      "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.": "Mavjud, lekin ko'pchilik qandaydir shaklda, AOK qilingan hazil orqali o'zgargan.",
+      "Randomised Words Which Don't Look Even Slightly  Believable.": "Fikr etilmaydigan qilinmagan so'zlar.",
+      "If You Are Going To Use A Passage Of Lorem Ipsum.": "Lorem Ipsum bilan bir necha variantlar mavjud.",
+      "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.": "Bir necha so'z bilan bir necha variantlar mavjud.",
+      "Our Projects": "Bizning Proyektlar",
+      "What Our Happy": "Bizning rahmatli mijozlar",
+      "Clients Say": "Mijozlar fikrlari",
+      "randomised words which don't look even": "fikr etilmaydigan qilinmagan so'zlar",
+      "slightly believable.": "fikr etilmaydigan qilinmagan so'zlar",
+      "Our Blog" : "Bizning blog",
+      "Creative & Professional Insights From Our Team": "Bizning tadbirlar ",
+      "Subscribe To Get The Latest": "Eng so'nggi ma'lumotlarni olish uchun ro'yxatdan o'ting",
+      "News About Us" : "Biz haqimizda",
+      "Lorem Ipsum is not simply random text. It has roots in": "Lorem Ipsum shunchaki tasodifiy matn emas. Uning ildizlari bor",
+      "a piece of classical Latin literature.": "klassik lotin adabiyotining bir qismi.",
+      "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.": "Ommabop e'tiqodga qarshi, Lorem Ipsum shunchaki tasodifiy matn emas. U klassik lotin adabiyotining bir qismiga asoslangan.",
+      "About": "Biz haqimizda",
+      "About Us": "Biz haqimizda",
+      "Features": "Xususiyatlar",
+      "News": "Yangiliklar",
+      "Careers": "Karyera",
+      "Company": "Kompaniya",
+      "Our Team": "Bizning jamoa",
+      "Partner With Us": "Biz bilan hamkorlik qiling",
+      "FAQ": "Savol-javoblar",
+      "Blog": "Blog",
+      "Support": "Qo'llab-quvvatlash",
+      "Account": "Hisob",
+      "Support Center": "Qo'llab-quvvatlash markazi",
+      "Feedback": "Fikr-mulohaza",
+      "Get In Touch": "Aloqa qiling",
+      "Have a question or feedback? We'd love to hear from you.": "Savolingiz yoki fikringiz bormi? Biz sizdan eshitishni xohlaymiz."
+    },
+    "ru": {
+      "home": "Главная",
+      "about": "О нас",
+      "services": "Услуги",
+      "projects": "Проекты",
+      "feedback": "Отзывы",
+      "blog": "Блог",
+      "contact": "Контакты",
+      "login": "Вход",
+      "Grow your Business Google Ads & Instagram Ads": "Развивайте свой бизнес с Google Ads и Instagram Ads",
+      "It is a long established fact that a reader will be distracted by the readable.": "Давно известно, что читатель отвлекается на то, что можно прочитать.",
+      "Contact Us": "Свяжитесь с нами",
+      "Intro Video": "Вступительное видео",
+      "Our Clients": "Наши клиенты",
+      "Great Creative Agency Since 1993": "Отличная креативная агенция с 1993 года",
+      "Creative & Proffesional Creative Agency!": "Креативная и профессиональная креативная агенция!",
+      "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.": "Давно установленный факт, что читатель будет отвлекаться от читаемого содержимого страницы, когда смотрит на ее макет. Смысл использования Lorem Ipsum в том, что он имеет более или менее нормальное распределение букв.",
+      "Our Services"  : "Наши услуги",
+      "Our Speciality Sales Increase By 250%": "Увеличение продаж на 250%",
+      "There Are Many Variations Of Passages Of Lorem Ipsum.": "Есть много вариантов фраз Lorem Ipsum.",
+      "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.": "Доступно, но большинство из них подверглось изменениям в той или иной форме из-за привнесенного юмора.",
+      "Randomised Words Which Don't Look Even Slightly  Believable.": "Случайные слова, которые не кажутся даже немного вероятными.",
+      "If You Are Going To Use A Passage Of Lorem Ipsum.": "Если вы используете фразу Lorem Ipsum.",
+      "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.": "Нужно быть уверенным, что в тексте ничего не скрыто.",
+      "Our Projects": "Наши Проекты",
+      "What Our Happy": "Что наши довольные",
+      "Clients Say": "Отзывы клиентов",
+      "randomised words which don't look even": "случайные слова, которые не кажутся даже немного вероятными.",
+      "slightly believable.": "немного вероятными.",
+      "Our Blog" : "Наш блог",
+      "Creative & Professional Insights From Our Team": "Креативная и профессиональная креативная агенция!",
+      "Subscribe To Get The Latest": "Подпишитесь, чтобы получать последние",
+      "News About Us" : "Новости о нас",
+      "Lorem Ipsum is not simply random text. It has roots in": "Lorem Ipsum — это не просто случайный текст. Он имеет корни ",
+      "a piece of classical Latin literature.": "в классической латинской литературе.",
+      "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.": "Вопреки распространенному мнению, Lorem Ipsum — это не просто случайный текст. Он имеет корни в классической латинской литературе.",
+      "About": "О нас",
+      "About Us": "О нас",
+      "Features": "Особенности",
+      "News": "Новости",
+      "Careers": "Карьера",
+      "Company": "Компания",
+      "Our Team": "Наша команда",
+      "Partner With Us": "Сотрудничайте с нами",
+      "FAQ": "Часто задаваемые вопросы",
+      "Blog": "Блог",
+      "Support": "Поддержка",
+      "Account": "Аккаунт",
+      "Support Center": "Центр поддержки",
+      "Feedback": "Отзывы",
+      "Get In Touch": "Свяжитесь с нами",
+      "Have a question or feedback? We'd love to hear from you.": "У вас есть вопрос или отзыв? Мы будем рады услышать вас."
+    },
+    "kor":{
+      "home": "홈",
+      "about": "정보",
+      "services": "서비스",
+      "projects": "프로젝트",
+      "feedback": "피드백",
+      "blog": "블로그",
+      "contact": "연락처",
+      "login": "로그인",
+      "Grow your Business Google Ads & Instagram Ads": "Google Ads와 Instagram Ads로 비즈니스를 성장시키세요",
+      "It is a long established fact that a reader will be distracted by the readable.": "독자는 읽을 수 있는 내용에 의해 주의가 산만해진다는 것은 오래전부터 알려진 사실이다.",
+      "Contact Us": "연락하세요",
+      "Intro Video": "소개 영상",
+      "Our Clients": "우리의 고객",
+      "Great Creative Agency Since 1993": "1993년 이전부터 크림티브 애플리케이션",
+      "Creative & Proffesional Creative Agency!": "크림티브 애플리케이션과 프로플레션언!",
+      "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.": "독자는 읽을 수 있는 내용에 의해 주의가 산만해진다는 것은 오래전부터 알려진 사실이다. 무엇은 빠른 정상으로 무엇은 정상이다.",
+      "Our Services"  : "우리의 서비스",
+      "Our Speciality Sales Increase By 250%": "250% 산마 총말",
+      "There Are Many Variations Of Passages Of Lorem Ipsum.": "Lorem Ipsum의 다양한 문장들이 있는다.",
+      "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.": "이용 가능하지만 대부분은 주입된 유머로 인해 어떤 형태로든 변형되었습니다.",
+      "Randomised Words Which Don't Look Even Slightly  Believable.": "이용 가능하지만 대부분은 주입된 유머로 인해 어떤 형태로든 변형되었습니다.",
+      "If You Are Going To Use A Passage Of Lorem Ipsum.": "Lorem Ipsum의 다양한 문장들이 있는다.",
+      "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.": "이용 가능하지만 대부분은 주입된 유머로 인해 어떤 형태로든 변형되었습니다.",
+      "Our Projects": "우리의 프로젝트",
+      "What Our Happy": "우리의 필티 ",
+      "Clients Say": "고객의 고객",
+      "randomised words which don't look even": "이용 가능하지만 대부분은 주입된 유머로 인해 어떤 형태로든",
+      "slightly believable.": "변형되었습니다.",
+      "Our Blog" : "우리의 블로그",
+      "Creative & Professional Insights From Our Team":"우리 팀의 창의적이고 전문적인 통찰력",
+      "Subscribe To Get The Latest": "최신의 블로그을 구동하는 방법",
+      "News About Us" : "우리에 대한 뉴스",
+      "Lorem Ipsum is not simply random text. It has roots in":"Lorem Ipsum는 정상으로 무엇은 정상이다.",
+      "a piece of classical Latin literature.":"한국어의 문장이다.",
+      "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.": "일반적인 믿음과 달리, Lorem Ipsum은 단순한 무작위 텍스트가 아닙니다. 그것은 고전 라틴 문학의 일부에 뿌리를 두고 있습니다.",
+      "About": "정보",
+      "About Us": "정보",
+      "Features": "특징",
+      "News": "뉴스",
+      "Careers": "채용",
+      "Company": "회사",
+      "Our Team": "우리 팀",
+      "Partner With Us": "우리와 협력하세요",
+      "FAQ": "자주 묻는 질문",
+      "Blog": "블로그",
+      "Support": "지원",
+      "Account": "계정",
+      "Support Center": "지원 센터",
+      "Feedback": "피드백",
+      "Get In Touch": "연락하기",
+      "Have a question or feedback? We'd love to hear from you.": "질문이나 피드백이 있으신가요? 여러분의 의견을 듣고 싶습니다."
+    }
+  }
 }
