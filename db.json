@@ -1,464 +1,169 @@
 {
   "users": [
     {
-      "name": "Muslima Radjabova",
-      "email": "radjabova@gmail.com",
-      "roles": [
-        "USER",
-        "ADMIN",
-        "SUPER_ADMIN"
-      ],
-      "password": "qwerty123",
-      "id": "1"
-    },
-    {
-      "id": "a2f5",
-      "name": "Daler Ismatov",
-      "email": "ismatov@gmail.com",
-      "password": "qwertyuio",
-      "roles": [
-        "USER"
-      ]
-    },
-    {
-      "id": "02",
-      "name": "Bexruz Sanaqulov",
-      "email": "sanaqulov@gmail.com",
-      "password": "bexruz123",
-      "roles": [
-        "USER"
-      ]
-    },
-    {
-      "id": "3gjf7bec",
-      "name": "Firdavs Sa'dullayev",
-      "email": "firdavs@gmail.com",
-      "password": "firdavs234",
-      "roles": [
-        "USER"
-      ]
-    },
-    {
-      "id": "17ahh214",
-      "name": "Jonibek Jo'rayev",
-      "email": "jonibek@gmail.com",
-      "password": "jonibek234",
-      "roles": [
-        "USER"
-      ]
-    },
-    {
-      "id": "088efa8f",
-      "name": "Zayniddinov Shoxjahon",
-      "email": "zayniddinov@gmail.com",
-      "password": "shoxjahon",
+      "id": "ec6f216d-8456-4d56-b1fd-308e6311cea3",
+      "username": "Muslima Radjabova",
+      "email": "muslima@gmail.com",
+      "password": "12345678",
       "roles": [
         "ADMIN",
-        "USER"
-      ]
-    },
-    {
-      "id": "ha8h1aj3",
-      "name": "Na'sullayev Nizom",
-      "email": "nizom@gmail.com",
-      "password": "nizom2345",
-      "roles": [
-        "USER"
-      ]
-    },
-    {
-      "id": "b7874a19",
-      "name": "Jumayev Mahmud",
-      "email": "mahmud@gmail.com",
-      "password": "mahmud234",
-      "roles": [
-        "USER"
-      ]
-    },
-    {
-      "id": "630deec443435",
-      "name": "Sherov Jahongir",
-      "email": "jahongir@gmail.com",
-      "password": "jahon1234",
-      "roles": [
-        "USER"
+        "TEACHER"
       ]
     }
   ],
-  "services": [
+  "adds": [
     {
       "id": "1",
-      "name": "Business Planning",
-      "description": "There are many variations of passages of Lorem Ipsum available but majority have suffered",
-      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYjTiCDd7AW00jTi16WZM8nyhv3X5Hs2FxgQ&s"
-    },
-    {
-      "name": "Financial Planning",
-      "description": "There are many variations of passages of Lorem Ipsum available but majority have suffered",
-      "imgUrl": "data:image/png;base64,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",
-      "id": "2"
-    },
-    {
-      "id": "3",
-      "name": "Market Analysis",
-      "description": "There are many variations of passages of Lorem Ipsum available but majority have suffered",
-      "imgUrl": "https://cdn-icons-png.freepik.com/512/8958/8958998.png"
-    },
-    {
-      "id": "4",
-      "name": "Business Planning",
-      "description": "There are many variations of passages of Lorem Ipsum available but majority have suffered",
-      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYjTiCDd7AW00jTi16WZM8nyhv3X5Hs2FxgQ&s"
-    },
-    {
-      "id": "5",
-      "name": "Financial Planning",
-      "description": "There are many variations of passages of Lorem Ipsum available but majority have suffered",
-      "imgUrl": "data:image/png;base64,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"
-    },
-    {
-      "id": "9cb1",
-      "name": "Market Analysis",
-      "description": "There are many variations of passages of Lorem Ipsum available but majority have suffered",
-      "imgUrl": "https://cdn-icons-png.freepik.com/512/8958/8958998.png"
-    }
-  ],
-  "blog": [
-    {
-      "id": "1",
-      "title": "Free Font Alternatives: The Ultimate Guide",
-      "imgUrl": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/modern-pricing-plan-mock-up-design-template-9201305de0503713bad84560243b5ec6_screen.jpg?ts=1737132357"
+      "theme": "English games",
+      "subjectName": "English",
+      "teacherName": "Muslima",
+      "groupNumber": "1",
+      "groupName": "KT-23",
+      "scheduleDate": "10.10.2023",
+      "scheduleTime": "10:00",
+      "para": "2",
+      "address": "708-xona",
+      "applicationText": "I want to study English with you",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3",
+      "completed": false,
+      "createdAt": "2025-05-03T14:30:00Z"
     },
     {
       "id": "2",
-      "title": "100 Things a UX/UI Designer Should Know",
-      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg"
+      "theme": "Math games",
+      "subjectName": "Math",
+      "teacherName": "Muslima",
+      "groupNumber": "1",
+      "groupName": "KT-23",
+      "scheduleDate": "10.10.2023",
+      "scheduleTime": "10:00",
+      "para": "2",
+      "address": "705-xona",
+      "applicationText": "I want to study Math with you",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3",
+      "completed": false,
+      "createdAt": "2025-05-03T14:30:00Z"
     },
     {
       "id": "3",
-      "title": "Free Font Alternatives: The Ultimate Guide",
-      "imgUrl": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/modern-pricing-plan-mock-up-design-template-9201305de0503713bad84560243b5ec6_screen.jpg?ts=1737132357"
+      "theme": "History games",
+      "subjectName": "History",
+      "teacherName": "Muslima",
+      "groupNumber": "1",
+      "groupName": "KT-23",
+      "scheduleDate": "10.10.2023",
+      "scheduleTime": "10:00",
+      "para": "2",
+      "address": "706-xona",
+      "applicationText": "I want to study History with you",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3",
+      "completed": false,
+      "createdAt": "2025-05-03T14:30:00Z"
     },
     {
-      "id": "4",
-      "title": "100 Things a UX/UI Designer Should Know",
-      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg"
+      "id": "ff4b",
+      "theme": "HTML and CSS",
+      "subjectName": "Dasturlash",
+      "groupName": "KT_23",
+      "groupNumber": "1",
+      "para": "3",
+      "scheduleDate": "2025-05-06",
+      "scheduleTime": "08:30",
+      "address": "709-xona",
+      "applicationText": "Hello",
+      "completed": false,
+      "createdAt": "2025-05-03T05:24:39.809Z",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3"
     },
     {
-      "id": "5",
-      "title": "Free Font Alternatives: The Ultimate Guide",
-      "imgUrl": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/modern-pricing-plan-mock-up-design-template-9201305de0503713bad84560243b5ec6_screen.jpg?ts=1737132357"
-    },
-    {
-      "id": "6",
-      "title": "100 Things a UX/UI Designer Should Know",
-      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg"
+      "id": "2f33",
+      "theme": "HTML and CSS",
+      "subjectName": "fggghj",
+      "groupName": "kt 24",
+      "groupNumber": "2",
+      "para": "2",
+      "scheduleDate": "2025-05-16",
+      "scheduleTime": "12:00",
+      "address": "709-xona",
+      "applicationText": "fgvbn ",
+      "completed": false,
+      "createdAt": "2025-05-13T06:25:59.320Z",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3"
     }
   ],
-  "category": [
+  "announcement": [
     {
       "id": "1",
-      "name": "All"
+      "theme": "English games",
+      "subjectName": "English",
+      "teacherName": "Muslima",
+      "groupNumber": "1",
+      "groupName": "KT-23",
+      "scheduleDate": "10.10.2023",
+      "scheduleTime": "10:00",
+      "para": "2",
+      "address": "English Academy",
+      "announcementText": "I want to study English with you",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3",
+      "createdAt": "2025-05-03T14:30:00Z",
+      "completed": false
     },
     {
-      "id": "2",
-      "name": "Web UI"
-    },
-    {
-      "id": "3",
-      "name": "Mobile UI"
-    },
-    {
-      "id": "4",
-      "name": "Branding"
+      "id": "63af",
+      "theme": "HTML and CSS",
+      "subjectName": "Dasturlash",
+      "groupName": "KT_23",
+      "groupNumber": "2",
+      "para": "3",
+      "scheduleDate": "2025-05-16",
+      "scheduleTime": "16:46",
+      "address": "Shift Academy",
+      "announcementText": "HTML and CSS",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3",
+      "createdAt": "2025-05-03T05:24:39.809Z",
+      "completed": false
     }
   ],
-  "projects": [
+  "articles": [
     {
-      "id": "2",
-      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg",
-      "categoryId": "1"
+      "id": "63af",
+      "title": "Hello Uzbekistan",
+      "date": "2025-05-16",
+      "link": "https://uzbekistan.uz",
+      "file": "uzbekistan.jpg",
+      "text": "Hello Uzbekistan",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3",
+      "createdAt": "2025-05-03T05:24:39.809Z"
     },
     {
-      "id": "6",
-      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg",
-      "categoryId": "3"
+      "id": "67af",
+      "title": "Hello Korea",
+      "date": "2025-05-16",
+      "link": "https://korea.uz",
+      "file": "korea.jpg",
+      "text": "Hello Korea",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3",
+      "createdAt": "2025-05-03T05:24:39.809Z"
     },
     {
-      "id": "7",
-      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg",
-      "categoryId": "4"
+      "id": "59ec",
+      "title": "artucles",
+      "link": "https://en.wikipedia.org/wiki/United_States",
+      "file": {},
+      "text": "jerug7vy6tjrjbftiumhyjnb htgik,mhcjshm gnbvfxdrcsfhg,lhsmikagstn fbvsgvdmfkgnkjghfbhgdvfceqwsaXAXSFDTHJGIYHL,HMKJHYRHEBGTF5WREFGEVGRYTUJU",
+      "date": "2025-05-06",
+      "createdAt": "2025-05-06T04:51:56.707Z",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3"
     },
     {
-      "id": "8983",
-      "imgUrl": "https://otrs.com/wp-content/uploads/IT-Service-Desk-Featured-Image.jpg",
-      "categoryId": "2"
-    },
-    {
-      "id": "ae77",
-      "imgUrl": "https://st3.depositphotos.com/35530942/36901/v/450/depositphotos_369013690-stock-illustration-online-fast-delivery-courier-service.jpg",
-      "categoryId": "2"
-    },
-    {
-      "id": "8983",
-      "imgUrl": "https://otrs.com/wp-content/uploads/IT-Service-Desk-Featured-Image.jpg",
-      "categoryId": "2"
+      "id": "3f6c",
+      "title": "asdasdas",
+      "link": "https://en.wikipedia.org/wiki/United_States",
+      "file": "94d0177a127a7f2f90a9ffb76897afda.jpg",
+      "text": "sdkashdkashdkashdkahsdkhasdkhaskdhaskdhakshdaksjfhaskjfhaskjfhaskjfhaksjfhaksjhfkasjfhkashfkashfakshfakshfaskjfhaskjfaksfhkfhshkashfaksjfhkashfkjafka",
+      "date": "2025-05-06",
+      "createdAt": "2025-05-06T05:50:12.214Z",
+      "teacherId": "ec6f216d-8456-4d56-b1fd-308e6311cea3"
     }
-  ],
-  "agency": [
-    {
-      "id": "1",
-      "imgUrl": "https://logomakerr.ai/uploads/output/2024/01/08/651d9280da95c3605b617d5337a28bfa.jpg"
-    },
-    {
-      "id": "2",
-      "imgUrl": "https://images.picxy.com/cache/2022/2/4/0b207c01449bada42c79834569f65ed6.jpg"
-    },
-    {
-      "id": "3",
-      "imgUrl": "https://images-platform.99static.com//gOLCxMHJ_oyPkH6wIlhUILU5cVs=/250x250:1169x1169/fit-in/500x500/99designs-contests-attachments/90/90662/attachment_90662155"
-    },
-    {
-      "id": "4",
-      "imgUrl": "https://marketplace.canva.com/EAGFOuLX-1M/1/0/1600w/canva-black-minimalist-business-company-logo-fQyf1fJD0tw.jpg"
-    },
-    {
-      "id": "5",
-      "imgUrl": "https://as2.ftcdn.net/jpg/01/63/12/59/1000_F_163125911_N2937xPNhb5EkSRfVGYV9C3ZIVq0kqVy.jpg"
-    },
-    {
-      "id": "6",
-      "imgUrl": "https://www.logoai.com/uploads/output/2025/04/19/0c61fa6a79a7055a4dfd9b288e882c41.jpg"
-    },
-    {
-      "id": "7",
-      "imgUrl": "https://cdn.prod.website-files.com/66e462e020f7c47f0b975775/67a091230682ebcbb975522f_nhMMmukU3Kf7KFCZUuWd.jpeg"
-    },
-    {
-      "id": "8",
-      "imgUrl": "https://live.staticflickr.com/7150/6802172465_98b208ca11_z.jpg"
-    },
-    {
-      "id": "9",
-      "imgUrl": "https://images.squarespace-cdn.com/content/v1/623d49f29df6737429ca4fc1/99a85c11-e1a4-40b1-9116-6c457a9f049e/Web-1920-%E2%80%93-99-1.png"
-    },
-    {
-      "id": "10",
-      "imgUrl": "https://marketplace.canva.com/EAGSWU1L2Tg/1/0/1600w/canva-white-modern-illustrative-online-e-commerce-shop-logo-17WSTuBtB6k.jpg"
-    }
-  ],
-  "translations": {
-    "en": {
-      "home": "Home",
-      "about": "About",
-      "services": "Services",
-      "projects": "Projects",
-      "feedback": "Feedback",
-      "blog": "Blog",
-      "contact": "Contact",
-      "login": "Login",
-      "Grow your Business Google Ads & Instagram Ads": "Grow your Business Google Ads & Instagram Ads",
-      "It is a long established fact that a reader will be distracted by the readable.": "It is a long established fact that a reader will be distracted by the readable.",
-      "Contact Us": "Contact Us",
-      "Intro Video": "Intro Video",
-      "Our Clients": "Our Clients",
-      "Great Creative Agency Since 1993": "Great Creative Agency Since 1993",
-      "Creative & Proffesional Creative Agency!": "Creative & Proffesional Creative Agency!",
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.": "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
-      "Our Services"  : "Our Services",
-      "Our Speciality Sales Increase By 250%": "Our Speciality Sales Increase By 250%",
-      "There Are Many Variations Of Passages Of Lorem Ipsum.": "There Are Many Variations Of Passages Of Lorem Ipsum.",
-      "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.": "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.",
-      "Randomised Words Which Don't Look Even Slightly  Believable.": "Randomised Words Which Don't Look Even Slightly  Believable.",
-      "If You Are Going To Use A Passage Of Lorem Ipsum.": "If You Are Going To Use A Passage Of Lorem Ipsum.",
-      "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.": "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.",
-      "Our Projects": "Our Projects",
-      "What Our Happy": "What Our Happy ",
-      "Clients Say": "Clients Say",
-      "randomised words which don't look even": "randomised words which don't look even",
-      "slightly believable.": "slightly believable.",
-      "Our Blog" : "Our Blog",
-      "Creative & Professional Insights From Our Team": "Creative & Professional Insights From Our Team",
-      "Subscribe To Get The Latest": "Subscribe To Get The Latest",
-      "News About Us" : "News About Us",
-      "Lorem Ipsum is not simply random text. It has roots in": "Lorem Ipsum is not simply random text. It has roots in",
-      "a piece of classical Latin literature.": "a piece of classical Latin literature.",
-      "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.": "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.",
-      "About": "About",
-      "About Us": "About Us",
-      "Features": "Features",
-      "News": "News",
-      "Careers": "Careers",
-      "Company": "Company",
-      "Our Team": "Our Team",
-      "Partner With Us": "Partner With Us",
-      "FAQ": "FAQ",
-      "Blog": "Blog",
-      "Support": "Support",
-      "Account": "Account",
-      "Support Center": "Support Center",
-      "Feedback": "Feedback",
-      "Get In Touch": "Get In Touch",
-      "Have a question or feedback? We'd love to hear from you.": "Have a question or feedback? We'd love to hear from you."
-    },
-    "uz": {
-      "home": "Bosh sahifa",
-      "about": "Biz haqimizda",
-      "services": "Xizmatlar",
-      "projects": "Projektlar",
-      "feedback": "Fikrlar",
-      "blog": "Blog",
-      "contact": "Aloqa",
-      "login": "Kirish",
-      "Grow your Business Google Ads & Instagram Ads": "Google Ads va Instagram Ads bilan biznesingizni oshirish",
-      "It is a long established fact that a reader will be distracted by the readable.": "O'quvchini o'qilishi mumkin bo'lgan narsa chalg'itishi uzoq vaqtdan beri tasdiqlangan haqiqatdir.",
-      "Contact Us": "Biz bilan aloqa",
-      "Intro Video": "Video Namoishi",
-      "Our Clients": "Bizning mijozlar",
-      "Great Creative Agency Since 1993": "1993 yilidan boshlab kreativ agensiyalar",
-      "Creative & Proffesional Creative Agency!": "Kreativ va proffesional kreativ agensiyalar!",
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.": "O'quvchi sahifaning tuzilishini ko'rib chiqayotganda uning o'qilishi mumkin bo'lgan mazmunini chalg'itishi uzoq vaqtdan beri tasdiqlangan haqiqatdir. Lorem Ipsum-dan foydalanishning mohiyati shundaki, u harflarning ko'proq yoki kamroq normal taqsimlanishiga ega.",
-      "Our Services"  : "Bizning xizmatlar",
-      "Our Speciality Sales Increase By 250%": "250% ga ko'paytirilgan sotuvlar",
-      "There Are Many Variations Of Passages Of Lorem Ipsum.": "Lorem Ipsum bilan bir necha variantlar mavjud.",
-      "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.": "Mavjud, lekin ko'pchilik qandaydir shaklda, AOK qilingan hazil orqali o'zgargan.",
-      "Randomised Words Which Don't Look Even Slightly  Believable.": "Fikr etilmaydigan qilinmagan so'zlar.",
-      "If You Are Going To Use A Passage Of Lorem Ipsum.": "Lorem Ipsum bilan bir necha variantlar mavjud.",
-      "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.": "Bir necha so'z bilan bir necha variantlar mavjud.",
-      "Our Projects": "Bizning Proyektlar",
-      "What Our Happy": "Bizning rahmatli mijozlar",
-      "Clients Say": "Mijozlar fikrlari",
-      "randomised words which don't look even": "fikr etilmaydigan qilinmagan so'zlar",
-      "slightly believable.": "fikr etilmaydigan qilinmagan so'zlar",
-      "Our Blog" : "Bizning blog",
-      "Creative & Professional Insights From Our Team": "Bizning tadbirlar ",
-      "Subscribe To Get The Latest": "Eng so'nggi ma'lumotlarni olish uchun ro'yxatdan o'ting",
-      "News About Us" : "Biz haqimizda",
-      "Lorem Ipsum is not simply random text. It has roots in": "Lorem Ipsum shunchaki tasodifiy matn emas. Uning ildizlari bor",
-      "a piece of classical Latin literature.": "klassik lotin adabiyotining bir qismi.",
-      "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.": "Ommabop e'tiqodga qarshi, Lorem Ipsum shunchaki tasodifiy matn emas. U klassik lotin adabiyotining bir qismiga asoslangan.",
-      "About": "Biz haqimizda",
-      "About Us": "Biz haqimizda",
-      "Features": "Xususiyatlar",
-      "News": "Yangiliklar",
-      "Careers": "Karyera",
-      "Company": "Kompaniya",
-      "Our Team": "Bizning jamoa",
-      "Partner With Us": "Biz bilan hamkorlik qiling",
-      "FAQ": "Savol-javoblar",
-      "Blog": "Blog",
-      "Support": "Qo'llab-quvvatlash",
-      "Account": "Hisob",
-      "Support Center": "Qo'llab-quvvatlash markazi",
-      "Feedback": "Fikr-mulohaza",
-      "Get In Touch": "Aloqa qiling",
-      "Have a question or feedback? We'd love to hear from you.": "Savolingiz yoki fikringiz bormi? Biz sizdan eshitishni xohlaymiz."
-    },
-    "ru": {
-      "home": "Главная",
-      "about": "О нас",
-      "services": "Услуги",
-      "projects": "Проекты",
-      "feedback": "Отзывы",
-      "blog": "Блог",
-      "contact": "Контакты",
-      "login": "Вход",
-      "Grow your Business Google Ads & Instagram Ads": "Развивайте свой бизнес с Google Ads и Instagram Ads",
-      "It is a long established fact that a reader will be distracted by the readable.": "Давно известно, что читатель отвлекается на то, что можно прочитать.",
-      "Contact Us": "Свяжитесь с нами",
-      "Intro Video": "Вступительное видео",
-      "Our Clients": "Наши клиенты",
-      "Great Creative Agency Since 1993": "Отличная креативная агенция с 1993 года",
-      "Creative & Proffesional Creative Agency!": "Креативная и профессиональная креативная агенция!",
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.": "Давно установленный факт, что читатель будет отвлекаться от читаемого содержимого страницы, когда смотрит на ее макет. Смысл использования Lorem Ipsum в том, что он имеет более или менее нормальное распределение букв.",
-      "Our Services"  : "Наши услуги",
-      "Our Speciality Sales Increase By 250%": "Увеличение продаж на 250%",
-      "There Are Many Variations Of Passages Of Lorem Ipsum.": "Есть много вариантов фраз Lorem Ipsum.",
-      "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.": "Доступно, но большинство из них подверглось изменениям в той или иной форме из-за привнесенного юмора.",
-      "Randomised Words Which Don't Look Even Slightly  Believable.": "Случайные слова, которые не кажутся даже немного вероятными.",
-      "If You Are Going To Use A Passage Of Lorem Ipsum.": "Если вы используете фразу Lorem Ipsum.",
-      "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.": "Нужно быть уверенным, что в тексте ничего не скрыто.",
-      "Our Projects": "Наши Проекты",
-      "What Our Happy": "Что наши довольные",
-      "Clients Say": "Отзывы клиентов",
-      "randomised words which don't look even": "случайные слова, которые не кажутся даже немного вероятными.",
-      "slightly believable.": "немного вероятными.",
-      "Our Blog" : "Наш блог",
-      "Creative & Professional Insights From Our Team": "Креативная и профессиональная креативная агенция!",
-      "Subscribe To Get The Latest": "Подпишитесь, чтобы получать последние",
-      "News About Us" : "Новости о нас",
-      "Lorem Ipsum is not simply random text. It has roots in": "Lorem Ipsum — это не просто случайный текст. Он имеет корни ",
-      "a piece of classical Latin literature.": "в классической латинской литературе.",
-      "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.": "Вопреки распространенному мнению, Lorem Ipsum — это не просто случайный текст. Он имеет корни в классической латинской литературе.",
-      "About": "О нас",
-      "About Us": "О нас",
-      "Features": "Особенности",
-      "News": "Новости",
-      "Careers": "Карьера",
-      "Company": "Компания",
-      "Our Team": "Наша команда",
-      "Partner With Us": "Сотрудничайте с нами",
-      "FAQ": "Часто задаваемые вопросы",
-      "Blog": "Блог",
-      "Support": "Поддержка",
-      "Account": "Аккаунт",
-      "Support Center": "Центр поддержки",
-      "Feedback": "Отзывы",
-      "Get In Touch": "Свяжитесь с нами",
-      "Have a question or feedback? We'd love to hear from you.": "У вас есть вопрос или отзыв? Мы будем рады услышать вас."
-    },
-    "kor":{
-      "home": "홈",
-      "about": "정보",
-      "services": "서비스",
-      "projects": "프로젝트",
-      "feedback": "피드백",
-      "blog": "블로그",
-      "contact": "연락처",
-      "login": "로그인",
-      "Grow your Business Google Ads & Instagram Ads": "Google Ads와 Instagram Ads로 비즈니스를 성장시키세요",
-      "It is a long established fact that a reader will be distracted by the readable.": "독자는 읽을 수 있는 내용에 의해 주의가 산만해진다는 것은 오래전부터 알려진 사실이다.",
-      "Contact Us": "연락하세요",
-      "Intro Video": "소개 영상",
-      "Our Clients": "우리의 고객",
-      "Great Creative Agency Since 1993": "1993년 이전부터 크림티브 애플리케이션",
-      "Creative & Proffesional Creative Agency!": "크림티브 애플리케이션과 프로플레션언!",
-      "It is a long established fact that a reader will be distracted the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.": "독자는 읽을 수 있는 내용에 의해 주의가 산만해진다는 것은 오래전부터 알려진 사실이다. 무엇은 빠른 정상으로 무엇은 정상이다.",
-      "Our Services"  : "우리의 서비스",
-      "Our Speciality Sales Increase By 250%": "250% 산마 총말",
-      "There Are Many Variations Of Passages Of Lorem Ipsum.": "Lorem Ipsum의 다양한 문장들이 있는다.",
-      "Available, But The Majority Have Suffered Alteration In  Some Form, By Injected Humour.": "이용 가능하지만 대부분은 주입된 유머로 인해 어떤 형태로든 변형되었습니다.",
-      "Randomised Words Which Don't Look Even Slightly  Believable.": "이용 가능하지만 대부분은 주입된 유머로 인해 어떤 형태로든 변형되었습니다.",
-      "If You Are Going To Use A Passage Of Lorem Ipsum.": "Lorem Ipsum의 다양한 문장들이 있는다.",
-      "Need To Be Sure There Isn't Anything Embarrassing  Hidden In The Middle Of Text.": "이용 가능하지만 대부분은 주입된 유머로 인해 어떤 형태로든 변형되었습니다.",
-      "Our Projects": "우리의 프로젝트",
-      "What Our Happy": "우리의 필티 ",
-      "Clients Say": "고객의 고객",
-      "randomised words which don't look even": "이용 가능하지만 대부분은 주입된 유머로 인해 어떤 형태로든",
-      "slightly believable.": "변형되었습니다.",
-      "Our Blog" : "우리의 블로그",
-      "Creative & Professional Insights From Our Team":"우리 팀의 창의적이고 전문적인 통찰력",
-      "Subscribe To Get The Latest": "최신의 블로그을 구동하는 방법",
-      "News About Us" : "우리에 대한 뉴스",
-      "Lorem Ipsum is not simply random text. It has roots in":"Lorem Ipsum는 정상으로 무엇은 정상이다.",
-      "a piece of classical Latin literature.":"한국어의 문장이다.",
-      "Contrary To Popular Belief, Lorem Ipsum Is Not Simply Random Text. It Has Roots In A Piece Of Classical Latin Literature.": "일반적인 믿음과 달리, Lorem Ipsum은 단순한 무작위 텍스트가 아닙니다. 그것은 고전 라틴 문학의 일부에 뿌리를 두고 있습니다.",
-      "About": "정보",
-      "About Us": "정보",
-      "Features": "특징",
-      "News": "뉴스",
-      "Careers": "채용",
-      "Company": "회사",
-      "Our Team": "우리 팀",
-      "Partner With Us": "우리와 협력하세요",
-      "FAQ": "자주 묻는 질문",
-      "Blog": "블로그",
-      "Support": "지원",
-      "Account": "계정",
-      "Support Center": "지원 센터",
-      "Feedback": "피드백",
-      "Get In Touch": "연락하기",
-      "Have a question or feedback? We'd love to hear from you.": "질문이나 피드백이 있으신가요? 여러분의 의견을 듣고 싶습니다."
-    }
-  }
+  ]
 }
